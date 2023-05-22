@@ -1,0 +1,7 @@
+{
+    "name": "MySQL",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "db",
+    "forwardPorts": [3306],
+    "postCreateCommand": "service mysql start"
+}
