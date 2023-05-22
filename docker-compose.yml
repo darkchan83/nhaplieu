@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: ocococ
+      MYSQL_DATABASE: nhaplieu
+      MYSQL_USER: rua
+      MYSQL_PASSWORD: 123456
+    ports:
+      - "3306:3306"
